@@ -74,7 +74,7 @@ namespace SmartSchool.API.Controllers
         }
 
         [HttpPut("{id}")]
-        // ex: localhost:5000/api/aluno
+        // ex: localhost:5000/api/aluno/
         public IActionResult Put(int id, Aluno aluno)
         {
             return Ok(aluno);
